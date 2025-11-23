@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | VogueThreads</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html"><h1>Vogue<span>Threads</span></h1></a>
+                </div>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#collections">Collections</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="size-guide.html">Size Guide</a></li>
+                        <li><a href="shipping.html">Shipping</a></li>
+                        <li><a href="returns.html">Returns</a></li>
+                        <li><a href="careers.html" class="active">Careers</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                    <button class="cart-btn"><i class="fas fa-shopping-bag"></i><span class="cart-count">3</span></button>
+                    <button class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="careers-hero">
+        <div class="container">
+            <h1>Join Our Team</h1>
+            <p>Help us redefine fashion and create amazing experiences for our customers</p>
+            <a href="#openings" class="btn btn-primary">View Open Positions</a>
+        </div>
+    </section>
+
+    <section class="careers-content">
+        <div class="container">
+            <div class="about-culture">
+                <h2 class="section-title">Our Culture</h2>
+                <p>At VogueThreads, we're passionate about fashion and creating exceptional experiences for our customers. We value innovation, creativity, and collaboration. Our team is dedicated to pushing boundaries while maintaining our commitment to quality and sustainability.</p>
+                
+                <div class="culture-grid">
+                    <div class="culture-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Innovation</h4>
+                        <p>We encourage creative thinking and new ideas that push fashion forward.</p>
+                    </div>
+                    <div class="culture-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Collaboration</h4>
+                        <p>We believe the best results come from working together across teams.</p>
+                    </div>
+                    <div class="culture-card">
+                        <i class="fas fa-heart"></i>
+                        <h4>Passion</h4>
+                        <p>We're driven by our love for fashion and creating beautiful products.</p>
+                    </div>
+                    <div class="culture-card">
+                        <i class="fas fa-leaf"></i>
+                        <h4>Sustainability</h4>
+                        <p>We're committed to ethical practices and reducing our environmental impact.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="benefits">
+                <h3>Employee Benefits</h3>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <i class="fas fa-heartbeat"></i>
+                        <h4>Health Insurance</h4>
+                        <p>Comprehensive medical, dental, and vision coverage for you and your family</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Learning & Development</h4>
+                        <p>Continuous learning opportunities, workshops, and career growth programs</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-tshirt"></i>
+                        <h4>Employee Discount</h4>
+                        <p>Generous discount on all VogueThreads products for you and your family</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Flexible Time Off</h4>
+                        <p>Paid time off, flexible work arrangements, and remote work options</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-child"></i>
+                        <h4>Family Support</h4>
+                        <p>Parental leave, childcare assistance, and family-friendly policies</p>
+                    </div>
+                    <div class="benefit-card">
+                        <i class="fas fa-utensils"></i>
+                        <h4>Wellness Programs</h4>
+                        <p>On-site fitness classes, healthy snacks, and wellness initiatives</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="openings" class="job-openings">
+                <h2 class="section-title">Current Openings</h2>
+                <p class="section-subtitle">Join our growing team and help shape the future of fashion</p>
+                
+                <div class="job-filters">
+                    <button class="filter-btn active" data-filter="all">All Positions</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                    <button class="filter-btn" data-filter="marketing">Marketing</button>
+                    <button class="filter-btn" data-filter="technology">Technology</button>
+                    <button class="filter-btn" data-filter="retail">Retail</button>
+                </div>
+                
+                <div class="jobs-grid">
+                    <div class="job-card" data-category="design">
+                        <h4>Fashion Designer</h4>
+                        <div class="job-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> New York, NY</span>
+                            <span class="type"><i class="fas fa-briefcase"></i> Full-time</span>
+                            <span class="department"><i class="fas fa-tag"></i> Design</span>
+                        </div>
+                        <p>We're looking for a creative Fashion Designer to join our design team and help develop our upcoming collections.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                    
+                    <div class="job-card" data-category="marketing">
+                        <h4>Digital Marketing Specialist</h4>
+                        <div class="job-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Remote</span>
+                            <span class="type"><i class="fas fa-briefcase"></i> Full-time</span>
+                            <span class="department"><i class="fas fa-tag"></i> Marketing</span>
+                        </div>
+                        <p>Join our marketing team to develop and execute digital campaigns that engage our audience and drive growth.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                    
+                    <div class="job-card" data-category="retail">
+                        <h4>Store Manager</h4>
+                        <div class="job-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Los Angeles, CA</span>
+                            <span class="type"><i class="fas fa-briefcase"></i> Full-time</span>
+                            <span class="department"><i class="fas fa-tag"></i> Retail</span>
+                        </div>
+                        <p>Lead our flagship store team in LA, ensuring exceptional customer experiences and driving store performance.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                    
+                    <div class="job-card" data-category="technology">
+                        <h4>Frontend Developer</h4>
+                        <div class="job-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> San Francisco, CA</span>
+                            <span class="type"><i class="fas fa-briefcase"></i> Full-time</span>
+                            <span class="department"><i class="fas fa-tag"></i> Technology</span>
+                        </div>
+                        <p>Help build and maintain our e-commerce platform and digital experiences for customers worldwide.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                    
+                    <div class="job-card" data-category="retail">
+                        <h4>Customer Service Representative</h4>
+                        <div class="job-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> Chicago, IL</span>
+                            <span class="type"><i class="fas fa-briefcase"></i> Full-time</span>
+                            <span class="department"><i class="fas fa-tag"></i> Retail</span>
+                        </div>
+                        <p>Provide exceptional customer service and support through various channels including phone, email, and chat.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                    
+                    <div class="job-card" data-category="design">
+                        <h4>Graphic Designer</h4>
+                        <div class="job-meta">
+                            <span class="location"><i class="fas fa-map-marker-alt"></i> New York, NY</span>
+                            <span class="type"><i class="fas fa-briefcase"></i> Full-time</span>
+                            <span class="department"><i class="fas fa-tag"></i> Design</span>
+                        </div>
+                        <p>Create compelling visual content for our marketing campaigns, website, and social media channels.</p>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="application-process">
+                <h3>Our Hiring Process</h3>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h4>Application Review</h4>
+                        <p>We carefully review each application to find the best matches for our team.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h4>Initial Interview</h4>
+                        <p>A phone or video call to learn more about your experience and interests.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h4>Team Interviews</h4>
+                        <p>Meet with team members to discuss the role and your potential contributions.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h4>Final Decision</h4>
+                        <p>We make an offer to candidates who we believe will thrive at VogueThreads.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <h2>Vogue<span>Threads</span></h2>
+                    </div>
+                    <p>Elevating everyday style with premium fashion since 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="men.html">Men's Collection</a></li>
+                        <li><a href="women.html">Women's Collection</a></li>
+                        <li><a href="kids.html">Kids' Collection</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="sale.html">Sale</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="shipping.html">Shipping Information</a></li>
+                        <li><a href="returns.html">Returns & Exchanges</a></li>
+                        <li><a href="size-guide.html">Size Guide</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new collections and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 VogueThreads. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
